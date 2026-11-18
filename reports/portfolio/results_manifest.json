@@ -1,0 +1,47 @@
+{
+  "generated_utc": "2026-11-17 17:42 UTC",
+  "python_version": "3.13.5",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "files": {
+    "test_models": {
+      "path": "experiments/unet_v2/test_evaluation/summary.csv",
+      "sha256": "d85e02ece04c7c55198ad7850bdb4d54ee03a229fad0a0d51efd1e88193c9950",
+      "bytes": 236
+    },
+    "test_regions": {
+      "path": "experiments/unet_v2/test_evaluation/regional.csv",
+      "sha256": "be7498391343b7eca4d2d6354213354c9e192f5b528860421a7ae122d612438b",
+      "bytes": 476
+    },
+    "exposure": {
+      "path": "experiments/unet_v2/test_evaluation/exposure_comparison.csv",
+      "sha256": "b46605dfb2f82f256b47c53085fe24d8b3626af7ca95d282bf78e8439c55d99c",
+      "bytes": 464
+    },
+    "bootstrap": {
+      "path": "experiments/statistical_reliability/bootstrap_intervals.csv",
+      "sha256": "f3d4d36b37d0cb445fa99cdc3fcab0acffc6fd594dca080c4e81e08bbfb816fe",
+      "bytes": 1427
+    },
+    "domain": {
+      "path": "experiments/domain_shift/test_domain_shift_vs_performance.csv",
+      "sha256": "152be67ee6581666c826607628be3b72702b59049e87cfcec5a674754790362d",
+      "bytes": 717
+    },
+    "validation": {
+      "path": "experiments/unet_v2/comparison/summary.csv",
+      "sha256": "4b0cc60669d37a5bf41019169029e6d25953b9942d7f8322fbba8756989be756",
+      "bytes": 244
+    },
+    "rf_comparison": {
+      "path": "experiments/final_comparison/summary.csv",
+      "sha256": "8788905bcb6eab3b07c6da1741f377b17a4434bed44fc040a84e5d5cc0d87c7f",
+      "bytes": 375
+    },
+    "water_area": {
+      "path": "experiments/geospatial/regional_area_summary.csv",
+      "sha256": "a1d657355986480199e90f66d5e7144033d8a3671f4ec5398392e5d9b43030c6",
+      "bytes": 224
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "last_release": "2026-10-21.0",
+  "last_run": "2026-11-17T16:48:35.554708+00:00",
+  "theme": "buildings",
+  "type": "building",
+  "bbox": {
+    "xmin": 105.9235890855556,
+    "ymin": 12.188341774933667,
+    "xmax": 105.96958282810253,
+    "ymax": 12.234335517480586
+  },
+  "backend": "geojson",
+  "output": "C:\\Users\\hritt\\GeoRescue\\experiments\\infrastructure_overture\\data\\building.geojson"
+}

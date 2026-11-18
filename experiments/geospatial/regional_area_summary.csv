@@ -1,0 +1,3 @@
+region,images,predicted_km2,reference_km2,mean_absolute_error_km2,bias_km2,relative_bias_pct
+Mekong,10,43.19243,61.98559,1.879315,-18.79316,-30.318595015389867
+Somalia,10,10.88002,6.981,0.598442,3.89902,55.85188368428592

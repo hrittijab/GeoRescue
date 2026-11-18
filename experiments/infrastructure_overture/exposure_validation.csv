@@ -1,0 +1,2 @@
+image,building_true_positive,building_false_positive,building_false_negative,building_true_negative,predicted_exposed_buildings,reference_exposed_buildings,building_exposure_precision,building_exposure_recall,building_exposure_f1,predicted_exposed_road_segments,reference_exposed_road_segments,predicted_exposed_road_m,reference_exposed_road_m
+Mekong_1248200,20,0,90,1077,20,110,1.0,0.1818,0.3077,1,3,10.609,853.462

@@ -1,0 +1,3 @@
+model,predicted_exposed_buildings,reference_exposed_buildings,building_TP,building_FP,building_FN,building_TN,building_precision,building_recall,building_f1,predicted_exposed_road_segments,reference_exposed_road_segments,road_TP,road_FP,road_FN,predicted_exposed_road_m,reference_exposed_road_m
+V1,20,110,20,0,90,1077,1.0,0.18181818181818182,0.3076923076923077,1,3,1,0,2,10.609,853.462
+V2,44,110,44,0,66,1077,1.0,0.4,0.5714285714285714,2,3,2,0,1,84.037,853.462

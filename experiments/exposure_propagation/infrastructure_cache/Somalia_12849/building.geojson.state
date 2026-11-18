@@ -1,0 +1,14 @@
+{
+  "last_release": "2026-10-21.0",
+  "last_run": "2026-11-17T19:19:46.462580+00:00",
+  "theme": "buildings",
+  "type": "building",
+  "bbox": {
+    "xmin": 45.165855181074946,
+    "ymin": 2.575649582627492,
+    "xmax": 45.211848923621865,
+    "ymax": 2.6216433251744116
+  },
+  "backend": "geojson",
+  "output": "C:\\Users\\hritt\\GeoRescue\\experiments\\exposure_propagation\\infrastructure_cache\\Somalia_12849\\building.geojson"
+}

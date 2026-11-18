@@ -1,0 +1,35 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environment
+.env
+.env.*
+
+# Datasets
+data/raw/
+data/processed/
+data/external/
+data/splits/
+
+# Model files
+*.pt
+*.pth
+*.ckpt
+
+# Experiment outputs
+experiments/outputs/
+experiments/checkpoints/
+
+# Editor and OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+build/
+*.egg-info/
