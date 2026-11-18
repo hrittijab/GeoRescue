@@ -366,7 +366,23 @@ with left:
     )
 
 with right:
-    data = load_exposure(version)
+    demo_filename = (
+        "exposure_v1.json"
+        if version == "U-Net V1"
+        else "exposure_v2.json"
+    )
+
+    demo_path = (
+        ROOT / "dashboard/demo_data" / demo_filename
+    )
+
+    if demo_path.exists():
+        data = json.loads(
+            demo_path.read_text(encoding="utf-8")
+        )
+        st.caption("Displaying precomputed exposure layers.")
+    else:
+        data = load_exposure(version)
 
     m = make_map(
         data,
@@ -459,3 +475,4 @@ st.download_button(
     file_name="georescue_model_comparison.csv",
     mime="text/csv"
 )
+
